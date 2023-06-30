@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Sacramento&display=swap');
 
 :root{
   --primary-white: #fff;
   --primary-orange: #f9ab00;
   --primary-dark: rgba(255,255,255,0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
 }
 body{
   font-family: "Roboto Condensed" sans-serif;
@@ -47,9 +50,12 @@ body{
   }
 }
 /**************NavBar**************/
+nav{
+  z-index: 2;
+}
 .logo{
-  width:16.25rem;
-  margin-top: 1rem;
+  width:4.25rem;
+  margin-top: 0.3rem;
 }
 /*************Menu Links************/
  nav a.nav-link{
@@ -73,6 +79,7 @@ nav ul li{
   height: 6rem;
 }
 
+
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 }
@@ -80,3 +87,83 @@ nav ul li{
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
 }
+/******************Header*************************/
+
+.header-wraper{
+  position: relative;
+  background: url(wall-and-laptop-background.jpg) no-repeat;
+  background-color: cover;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  width:100%;
+}
+
+.main-info{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condesed", sans-serif;
+  z-index: 1;
+}
+
+.main-info h1{
+  color: var(--primary-orange);
+  font-size: 6rem;
+  font-family: "Sacramento";
+}
+.main-info h3{
+  color: var(--primary-white); 
+  font-family: "Roboto Condensed" sans-serif;
+}
+
+/********TYPED TXT**********/
+.typed-text{
+  font-size: 2rem;
+  color: var(--primary-white);
+  
+} 
+
+@media(max-width: 768px){
+  .main-info h1{
+    font: size 1.7rem !important;
+  }
+  .main-info h3{
+    font: size 1.8rem !important;
+  }
+  .typed-text{
+    font-size:1.8rem !important;
+  }
+}
+
+/*******HEADER MAIN OFFER BUTTON******/
+.btn-main-offer{
+  border: 0.0625rem solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+}
+
+.btn-main-offer:hover{
+  text-decoration: none;
+  background-color: var(--primary-hover-red);
+  color: var(--primary-white);
+  transition: 1s ease-in-out;
+}
+
+/* *******PARTICLES*********
+.tsparticles-canvas-e1{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+} */
