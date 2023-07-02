@@ -13,6 +13,7 @@
   --primary-black: #282c34;
   --primary-dark-black: #000000;
   --primary-green: green;
+  --primary-blue: #0077a7;
 }
 body{
   font-family: "Roboto Condensed" sans-serif !important;
@@ -469,8 +470,6 @@ nav ul li{
   color: var(--primary-orange);
   outline: 0 !important;
   box-shadow: none !important;
-  
-  padding-left: 0 !important;
 }
 
 .contacts .container {
@@ -501,6 +500,10 @@ nav ul li{
   height: 2.5rem;
   background: none !important;
   margin-bottom: 1.6rem;
+}
+
+.btn-primary:hover{
+  background: var(--primary-blue) !important;
 }
 
 .line{
