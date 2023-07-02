@@ -12,6 +12,7 @@
   --primary-hover-red: #f33501;
   --primary-black: #282c34;
   --primary-dark-black: #000000;
+  --primary-green: green;
 }
 body{
   font-family: "Roboto Condensed" sans-serif !important;
@@ -433,4 +434,131 @@ nav ul li{
     font-weight: 600;
     align-items: center;
   }
+
+  .project-image {
+    width: 21rem;
+  }
 }
+
+/************CONTACTS COMPONENTS***************/
+.contacts{
+  background: var(--primary-black);
+  padding: 3rem 0;
+}
+
+.contacts h1{
+  color: var(--primary-orange);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contacts p{
+  color: var(--primary-light-grey);
+  font-size: 1.2rem;
+}
+
+/***********INPUTS*************/
+.contacts input, .contacts textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none !important;
+  resize: none;
+  border: 1rem;
+  border: 0.125rem solid var(--primary-dark-grey);
+  border-radius: 0;
+  color: var(--primary-orange);
+  outline: 0 !important;
+  box-shadow: none !important;
+  
+  padding-left: 0 !important;
+}
+
+.contacts .container {
+  padding: 4rem 0;
+}
+
+.contacts input:focus, .contacts textarea:focus {
+  background: transparent !important;
+  color: var(--primary-orange);
+}
+
+.contacts textarea {
+  height: 16.6rem !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.contact-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  height: 2.5rem;
+  background: none;
+}
+
+.btn-primary{
+  margin: 1rem 0 0 0;
+  width: 100%;
+  height: 2.5rem;
+  background: none !important;
+  margin-bottom: 1.6rem;
+}
+
+.line{
+  position: relative;
+  top: -1.2rem;
+  width: 0;
+  height: 0.125rem;
+  background: var(--primary-orange);
+  display: inline-block;
+}
+
+input:focus+.line, textarea:focus+.line{
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+input.form-control{
+  margin: -0.2rem 0;
+  text-align: center;
+  font-size:  1rem;
+}
+
+textarea.form-control{
+  margin: -0.2rem 0;
+  text-align: center;
+  font-size:  1rem;
+}
+
+.error{
+  color: var(--primary-hover-red) !important;
+  font-size: 0.1px;
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.error-message{
+  margin-bottom: -1rem;
+}
+
+
+.success-message {
+  font-weight: 900;
+  font-size: 2rem;
+  color: var(--primary-green) !important;
+} 
+/***************MEDIA***********/
+@media(max-width: 768px) {
+
+  .contacts{
+    overflow-x: hidden;
+  }
+
+  .contacts .container{
+    padding: 0 1.3rem;
+  }
+
+  .contacts p{
+    padding: 0 0.8rem;
+  }
+}
+
