@@ -16,6 +16,8 @@
     "react-hook-form": "^7.45.1",
     "react-popupbox": "^2.0.9",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
+    "react-share": "^4.4.1",
     "react-typed": "^1.2.0",
     "reactjs-popup": "^2.0.5",
     "web-vitals": "^2.1.4"

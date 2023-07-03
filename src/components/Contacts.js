@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import {useForm} from "react-hook-form"; 
-import { DevTool } from "@hookform/devtools";
 
 const Contacts = () => {
   
   const [successMessage, setSuccessMessage] = useState("");
-  const {register, control, handleSubmit, formState:{errors},}= useForm();
+  const {register, handleSubmit, formState:{errors},}= useForm();
   
   const serviceID = "service_ID";
   const templateID = "template_ID";
@@ -37,7 +36,7 @@ const Contacts = () => {
   
 
   return (
-    <div className="contacts">
+    <div id="contacts" className="contacts">
        <div className="text-center">
        <h1>Contact Me</h1>
        <p>Please fill out the form and describe your Doubts and I'll contact you as soon as possible.</p>
@@ -151,7 +150,6 @@ const Contacts = () => {
             </div>
         </div>
         </form>
-        <DevTool control={control}/>
        </div>
     </div>
   )

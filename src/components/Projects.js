@@ -38,7 +38,7 @@ const Projects = () => {
 
 
   return (
-    <div className="project-wrapper">
+    <div id="projects" className="project-wrapper">
         <div className="container">
             <h1 className="text-uppercase text-center py-5">Projects</h1>
             <div className="image-box-wrapper d-flex justify-content-center">

@@ -18,45 +18,8 @@
 body{
   font-family: "Roboto Condensed" sans-serif !important;
 }
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-/**************NavBar**************/
+/*---------------------------NAVBAR----------------------------*/
 nav{
   z-index: 2;
 }
@@ -64,7 +27,7 @@ nav{
   width:13.25rem;
   margin-top: 0.3rem;
 }
-/*************Menu Links************/
+/*--------------------------MENU LINKS--------------------------*/
  nav a.nav-link{
   font-size: 0.8rem;
   letter-spacing: 0.0375rem;
@@ -86,23 +49,22 @@ nav ul li{
   height: 6rem;
 }
 
-
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
 }
-/******************Header*************************/
 
+/*--------------------------HEADER--------------------------*/
 .header-wraper{
   position: relative;
   background: url(wall-and-laptop-background.jpg) no-repeat;
   background-color: cover;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
   width:100%;
 }
 
@@ -126,12 +88,13 @@ nav ul li{
   font-size: 6rem;
   font-family: "Sacramento";
 }
+
 .main-info h3{
   color: var(--primary-white); 
   font-family: "Roboto Condensed" sans-serif;
 }
 
-/********TYPED TXT**********/
+/*--------------------------TYPED TEXT--------------------------*/
 .typed-text{
   font-size: 2rem;
   color: var(--primary-white);
@@ -150,7 +113,7 @@ nav ul li{
   }
 }
 
-/*******HEADER MAIN OFFER BUTTON******/
+/*--------------------------HEADER MAIN OFFER BUTTON--------------------------*/
 .btn-main-offer{
   border: 0.0625rem solid var(--primary-red);
   text-transform: uppercase;
@@ -167,12 +130,13 @@ nav ul li{
   transition: 1s ease-in-out;
 }
 
-/* *******ABOUT ME*********/
+/*--------------------------ABOUT ME--------------------------*/
 .photo-wrap{
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .profile-img{
   width: 25rem;
   border-radius: 50%;
@@ -187,15 +151,13 @@ nav ul li{
   padding-top: 1.2rem;
 }
 
-
-
 @media(max-width: 468px){
   .profile-img{
     width: 10rem;
   }
 }
 
- /************Skills************/
+ /*--------------------------SKILLS--------------------------*/
  .skills{
   text-align: center;
   padding-bottom: 2rem;
@@ -223,7 +185,6 @@ nav ul li{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
  }
 
  .skills .box{
@@ -233,6 +194,7 @@ nav ul li{
   margin-bottom: 1.875rem;
   background: var(--primary-white);
   transition: 0.3s ease-in-out;
+  border-radius: 1rem 1rem 1rem 1rem;
  }
 
  .skills .box:hover{
@@ -248,7 +210,7 @@ nav ul li{
   color: var(--primary-white);
  }
 
- /******************Experience**************/
+ /*--------------------------EXPERIENCE--------------------------*/
  .experience{
   padding: 0.7rem;
  }
@@ -308,6 +270,7 @@ nav ul li{
   padding: 0 0.9375rem;
   color: var(--primary-dark-grey);
   direction: ltr;
+  border-radius: 2rem 1rem 2rem 1rem;
 }
 
 .timeline-content h3 {
@@ -339,7 +302,7 @@ nav ul li{
    }
 }
 
-/*****************PROJECTS**************/
+/*--------------------------PROJECTS--------------------------*/
 .project-wrapper {
   background: var(--primary-light-grey);
   padding: 3rem 0;
@@ -353,6 +316,7 @@ nav ul li{
   width: 15rem;
   border: 1px solid var(--primary-orange);
   padding: 0 0.5rem;
+  border-radius: 1rem 1rem 1rem 1rem;
 }
 
 .project-image-box {
@@ -360,9 +324,7 @@ nav ul li{
   margin: 1rem;
 }
 
-
-
-/***********OVERFLOW BOX**************/
+/*--------------------------OVERFLOW BOX--------------------------*/
  .overflow{
   position: absolute;
   opacity: 0;
@@ -372,6 +334,7 @@ nav ul li{
   top:0;
   border: 1px solid var(--primary-red);
   cursor: pointer;
+  border-radius: 1rem 1rem 1rem 1rem;
  }
 
 .project-image-box:hover .overflow{
@@ -394,7 +357,7 @@ nav ul li{
   cursor: pointer;
 }
 
-/**************OVERFLOW BOX************/
+/*--------------------------OVERFLOW BOX 2--------------------------*/
 .project-image-popupbox{
   width: 45rem;
   padding: 0 0.5rem;
@@ -415,7 +378,7 @@ nav ul li{
   text-decoration: none;
 }
 
-/*********MEDIA**********/
+/*--------------------------MEDIA--------------------------*/
 @media(max-width:768px){
 
   .popupbox-wrapper{
@@ -425,6 +388,7 @@ nav ul li{
     width: 100%;
   }
 }
+
 @media (max-width: 768px) {
 .image-box-wrapper {
     flex-direction: column;
@@ -437,11 +401,11 @@ nav ul li{
   }
 
   .project-image {
-    width: 21rem;
+    width: 17rem;
   }
 }
 
-/************CONTACTS COMPONENTS***************/
+/*--------------------------CONTACTS COMPONENTS--------------------------*/
 .contacts{
   background: var(--primary-black);
   padding: 3rem 0;
@@ -458,7 +422,7 @@ nav ul li{
   font-size: 1.2rem;
 }
 
-/***********INPUTS*************/
+/*--------------------------INPUTS--------------------------*/
 .contacts input, .contacts textarea {
   width: 100%;
   box-sizing: border-box;
@@ -549,7 +513,7 @@ textarea.form-control{
   font-size: 2rem;
   color: var(--primary-green) !important;
 } 
-/***************MEDIA***********/
+/*--------------------------MEDIA--------------------------*/
 @media(max-width: 768px) {
 
   .contacts{
@@ -557,11 +521,63 @@ textarea.form-control{
   }
 
   .contacts .container{
-    padding: 0 1.3rem;
+    padding: 0 1rem !important;
+    width: 1rem,
   }
 
   .contacts p{
-    padding: 0 0.8rem;
+    padding: 0 0.5rem;
   }
 }
 
+/*--------------------------FOOTER COMPONENTS--------------------------*/
+.footer{
+ background: var(--primary-dark-black);
+ color: var(--primary-dark-grey);
+ padding: 3rem;
+}
+
+.footer a{
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover{
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.footer p{
+  margin-bottom: 0;
+}
+
+.mx-3{
+  border-radius: 2rem 2rem 2rem 2rem;
+}
+
+.footershare{
+  padding-left: 9rem;
+  padding-bottom: 0.4rem;
+}
+
+.copyright{
+  font-size: 0.8rem;
+}
+
+@media(max-width: 768px){
+  .details{
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+
+  .footershare{
+    padding-left: 0rem;
+    padding-top: 1rem;
+  }
+
+  .footernavwrap{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+}
