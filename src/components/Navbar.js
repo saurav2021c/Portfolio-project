@@ -7,7 +7,7 @@ import {faBars} from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav className="topnav navbar navbar-expand-lg navbar-light bg-dark">
   <div className="container-fluid">
 
     <a className="navbar-brand" href="https://www.linkedin.com/in/sauravsinghhhh/"> <img className="logo" src={logo} alt="logo..."/></a>

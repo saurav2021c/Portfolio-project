@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-scroll";
 import {
     FacebookShareButton,FacebookIcon,
     TwitterShareButton, TwitterIcon,
@@ -26,18 +27,18 @@ const Footer = () => {
                 <div className="col-lg-3 col-md-2 col-sm-6 ">
                     <div className="row footernavwrap">
                         <div className="col">
-                            <a className="footer-nav">Home</a>
+                            <Link to="home" className="footer-nav">Home</Link>
                             <br/>
-                            <a className="footer-nav">About Me</a>
+                            <Link to="about" offset={5} duration={500}  className="footer-nav">About Me</Link>
                             <br/>
-                            <a className="footer-nav">Skills</a>
+                            <Link to="skills" offset={0} duration={500} className="footer-nav">Skills</Link>
                         </div>
                         <div className="col">
-                            <a className="footer-nav">Experience</a>
+                            <Link  to="experience" offset={0} duration={500} className="footer-nav">Experience</Link>
                             <br/>
-                            <a className="footer-nav">Projects</a>
+                            <Link to="projects" offset={0} duration={500}  className="footer-nav">Projects</Link>
                             <br/>
-                            <a className="footer-nav">Contacts</a>
+                            <Link to="contacts" offset={0} duration={500}  className="footer-nav">Contacts</Link>
                         </div>
                     </div>
                 </div>
@@ -45,25 +46,25 @@ const Footer = () => {
                 <p className="footershare">Share my Portfolio:</p>
                     <div className="d-flex justify-content-center">
                         <FacebookShareButton
-                        url={"https://www.linkedin.com/in/sauravsinghhhh/"}
+                        url={"https://saurav2021c.github.io/Portfolio-project/"}
                         quote={"Data Analyst"}
                         >
                             <FacebookIcon className="mx-3" size={36}/>
                         </FacebookShareButton>
                         <LinkedinShareButton
-                        url={"https://www.linkedin.com/in/sauravsinghhhh/"}
+                        url={"https://saurav2021c.github.io/Portfolio-project/"}
                         quote={"Data Analyst"}
                         >
                             <LinkedinIcon className="mx-3" size={36}/>
                         </LinkedinShareButton>
                         <TwitterShareButton
-                        url={"https://www.linkedin.com/in/sauravsinghhhh/"}
+                        url={"https://saurav2021c.github.io/Portfolio-project/"}
                         quote={"Data Analyst"}
                         >
                             <TwitterIcon className="mx-3" size={36}/>
                         </TwitterShareButton>
                         <WhatsappShareButton
-                        url={"https://www.linkedin.com/in/sauravsinghhhh/"}
+                        url={"https://saurav2021c.github.io/Portfolio-project/"}
                         quote={"Data Analyst"}
                         >
                             <WhatsappIcon className="mx-3" size={36}/>

@@ -23,8 +23,8 @@ nav{
   z-index: 2;
 }
 .logo{
-  width:8.25rem;
-  margin-top: 0.3rem;
+  width: 4.5rem;
+  margin-top: 1.5rem;
 }
 /*--------------------------MENU LINKS--------------------------*/
  nav a.nav-link{
@@ -54,6 +54,10 @@ nav ul li{
 
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
+}
+
+.topnav{
+  height: 5rem;
 }
 
 /*--------------------------HEADER--------------------------*/
