@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Sacramento&display=swap');
 
 :root{
@@ -24,7 +23,7 @@ nav{
   z-index: 2;
 }
 .logo{
-  width:13.25rem;
+  width:8.25rem;
   margin-top: 0.3rem;
 }
 /*--------------------------MENU LINKS--------------------------*/
@@ -79,7 +78,7 @@ nav ul li{
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: "Roboto Condesed", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   z-index: 1;
 }
 
