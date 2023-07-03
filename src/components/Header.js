@@ -17,7 +17,7 @@ const Header = () => {
                backSpeed={40}
                loop
                />
-               <a href="https://www.linkedin.com/in/sauravsinghhhh/" className="btn-main-offer">Resume</a>
+               <a href="https://drive.google.com/file/d/10ZhWyPNOBTwg3_HnbxFW47Zv7cblVGUK/view?usp=sharing" className="btn-main-offer">Resume</a>
         </div>
     </div>
     </>
