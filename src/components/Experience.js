@@ -7,6 +7,16 @@ const Experience = () => {
           <div className="heading-experience"><h1>Experience</h1></div>  
         </div>
         <div className="container experience-wrapper">
+            <div className="timeline-block timeline-block-left">
+                <div className="marker"></div> 
+                    <div className="timeline-content">
+                        <h3>AI Amplify Hackathon</h3>
+                        <h4>21/07/23 - 22/07/23</h4>
+                        <p>Our team of 5 Suraj Rajbhar, Sushan Uchil, Aditya Rajauria, Ankit Yadav, and me embarked on an exciting journey in this event organized by Atrina Technologies Pvt Ltd and 1Finance company. We dived deep into AI-powered solutions, tackling problem statements of varying complexities - from easy to moderate and hard. The experience is beyond amazing as we not only improved our skills but also got the chance to meet inspiring founders and gain valuable insights into the hackathon process.</p>
+                    </div>
+                 
+            </div>
+
             <div className="timeline-block timeline-block-right">
                 <div className="marker"></div> 
                     <div className="timeline-content">

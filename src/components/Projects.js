@@ -39,9 +39,11 @@ const Projects = () => {
 
   return (
     <div id="projects" className="project-wrapper">
+        
         <div className="container">
             <h1 className="text-uppercase text-center py-5">Projects</h1>
             <div className="image-box-wrapper d-flex justify-content-center">
+            {/** */}    
             <div className="project-image-box" onClick={openPopupboxDetection} >
                 <img className="project-image" src={detection} alt="age-detection project" />
                 <div className="overflow" ></div>

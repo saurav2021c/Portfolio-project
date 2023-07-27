@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
+import resume from "../images/resume.pdf";
 
 const Header = () => {
   return (
@@ -17,7 +18,7 @@ const Header = () => {
                backSpeed={40}
                loop
                />
-               <a href="https://drive.google.com/file/d/10ZhWyPNOBTwg3_HnbxFW47Zv7cblVGUK/view?usp=sharing" className="btn-main-offer">Resume</a>
+               <a href={resume} className="btn-main-offer">Resume</a>
         </div>
     </div>
     </>
