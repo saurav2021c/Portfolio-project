@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Portfolio-project/static/css/main.f95c47f0.css",
-    "main.js": "/Portfolio-project/static/js/main.dce99533.js",
+    "main.js": "/Portfolio-project/static/js/main.3ee1166e.js",
     "static/js/787.128fc6e9.chunk.js": "/Portfolio-project/static/js/787.128fc6e9.chunk.js",
-    "static/media/me.JPG": "/Portfolio-project/static/media/me.b071cfebfe11f1711919.JPG",
     "static/media/tech-paradise.jpg": "/Portfolio-project/static/media/tech-paradise.eee7c8ce170c99c26e90.jpg",
-    "static/media/resume.pdf": "/Portfolio-project/static/media/resume.57d88b808e7919994ea5.pdf",
+    "static/media/me.png": "/Portfolio-project/static/media/me.f37834bbbcc73616e825.png",
+    "static/media/resume.pdf": "/Portfolio-project/static/media/resume.e2cb2d96168830ade424.pdf",
     "static/media/wall-and-laptop-background.jpg": "/Portfolio-project/static/media/wall-and-laptop-background.f9e274f49e7f72950a2f.jpg",
     "static/media/age-detection.jpg": "/Portfolio-project/static/media/age-detection.87b91fbb963feacbad81.jpg",
     "static/media/loan-prediction.jpg": "/Portfolio-project/static/media/loan-prediction.e8208ded9f941eb68115.jpg",
@@ -14,11 +14,11 @@
     "static/media/cms.jpg": "/Portfolio-project/static/media/cms.3b85d618cf279ce39b74.jpg",
     "index.html": "/Portfolio-project/index.html",
     "main.f95c47f0.css.map": "/Portfolio-project/static/css/main.f95c47f0.css.map",
-    "main.dce99533.js.map": "/Portfolio-project/static/js/main.dce99533.js.map",
+    "main.3ee1166e.js.map": "/Portfolio-project/static/js/main.3ee1166e.js.map",
     "787.128fc6e9.chunk.js.map": "/Portfolio-project/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f95c47f0.css",
-    "static/js/main.dce99533.js"
+    "static/js/main.3ee1166e.js"
   ]
 }
