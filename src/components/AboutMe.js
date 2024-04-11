@@ -1,23 +1,40 @@
 import React from "react";
-import author from "../me.JPG";
+import author from "../me.png";
 const AboutMe = () => {
   return (
     <div id="about" className="container py-5">
       <div className="row">
         <div className="col-lg-6 col-xm-12">
-            <div className="photo-wrap">
-             <img className="profile-img" src={author} alt="author..."/>
-            </div>
+          <div className="photo-wrap">
+            <img className="profile-img" src={author} alt="author..." />
+          </div>
         </div>
         <div className="col-lg-6 col-xm-12">
-            <h1 className="about-heading">About Me</h1>
-            <p className="aboutme-para">
-            I am an ambitious and enthusiastic fourth-year undergraduate pursuing a B.Tech in A.I & Data Science. I am captivated by the ever-evolving landscape of A.I industry and constantly seek out new technologies and innovations to stay at the forefront.My expertise includes proficiency in Python and C++, along with a basic foundation in Java.  My explorations have extended to the fields of Machine Learning and Generative A.I, where I am excited to push boundaries and uncover groundbreaking solutions and learn things.In addition to my A.I and Data Science Knowledge, I possess a diverse range of technical skills which I explored. I am well-versed in HTML, CSS, ReactJs, NodeJs, Bootstrap, SQL, Mongodb, Flutter, Dart, OOPS, OpenCV, and Deep Learning. This extensive overview enables me to approach projects from a holistic perspective and deliver comprehensive solutions.I am eager to contribute my knowledge, skills, and passion to a dynamic organization that values innovation and growth. With a strong foundation in A.I and Data Science, coupled with a broad technical skill set, I am poised to make a remarkable impact and thrive in a fast-paced environment.
-            </p>
+          <h1 className="about-heading">About Me</h1>
+          <p className="aboutme-para">
+            As a final year BTech student majoring in Artificial Intelligence
+            and Data Science, I'm truly passionate about utilizing technology to
+            drive impactful solutions. Throughout my academic journey, I've
+            honed my skills in Python, Advanced Excel, SQL, Power BI, and
+            Machine Learning, gaining hands-on experience in project development
+            and analysis within the data science domain. I'm proud to have been
+            recognized for my contributions in over 5 hackathons, including
+            achieving semi-finalist status in the prestigious Deep Blue
+            Hackathon. I thrive in collaborative environments and love tackling
+            complex challenges head-on.My expertise also extends to web scraping
+            techniques, which I've used to efficiently gather and analyze data
+            for various projects. Additionally, I'm actively sharpening my
+            problem-solving abilities through LeetCode challenges and delving
+            deeper into the realm of Big Data to stay ahead of evolving
+            technologies.With a commitment to continuous learning and growth,
+            I'm eager to explore new opportunities and make meaningful
+            contributions in the dynamic field of data science. Let's connect
+            and discuss how I can bring value to your team!
+          </p>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default AboutMe
+export default AboutMe;
